@@ -1,21 +1,86 @@
-## Overview & Conclusion
+🚖 Ride X – Operational Performance Dashboard
+📌 Project Overview
 
-Ride X is an advanced ride-sharing platform designed to provide efficient, affordable, and seamless transportation for users.
-By connecting passengers with nearby drivers in real-time, Ride X offers an intuitive user experience with features like ride tracking, fare estimation, and driver ratings.
-Whether for daily commutes or special trips, Ride X aims to revolutionize how people move within their cities.
+The Ride X dashboard provides a comprehensive business intelligence solution for analyzing ride-hailing performance.
+It evaluates booking patterns, cancellations, vehicle utilization, payment methods, and customer satisfaction — helping identify lost revenue opportunities and optimize fleet strategy.
 
-### Key Dashboard Features:
+🎯 Business Problem & Goal
 
-The Ride X dashboard was developed with five key goals in mind:
+Ride-hailing companies face challenges such as:
 
-1. **Real-Time Ride Tracking:** The dashboard allows both passengers and drivers to view live updates on the location of their rides, ensuring they stay informed about arrival times and any changes along the way.
-   
-2. **Quick Ride Booking:** The dashboard streamlines the booking process, allowing users to easily request rides, select pick-up and drop-off locations, and confirm trips with minimal effort.
-   
-3. **Driver and Ride Rating System:** To ensure high-quality service, passengers can rate their rides and drivers, and drivers can rate passengers. This feature fosters accountability and trust between both parties.
-   
-4. **Fare Estimation and Transparency:** The dashboard provides passengers with an upfront fare estimate based on distance and time, making the pricing process transparent and helping users avoid unexpected costs.
-   
-5. **Ride History and Payment Management:** Users can track their ride history, including trip details and invoices, and manage their payment methods directly from the dashboard for a smooth and consistent experience.
+High cancellation rates leading to revenue leakage.
 
-In conclusion, Ride X is a comprehensive solution for modern transportation, combining simplicity with powerful functionality. It enhances the mobility experience for both drivers and passengers, ensuring safe, reliable, and flexible travel options. With its user-friendly interface, efficient backend, and real-time capabilities, Ride X promises to make transportation easier and more accessible to everyone.
+Uneven vehicle performance and underutilization.
+
+Inefficient driver allocation in peak demand areas.
+
+Need for better customer experience and loyalty strategies.
+
+Goal: Build an interactive Power BI dashboard that delivers actionable insights to improve operational efficiency, customer satisfaction, and revenue growth.
+
+🔑 Key Insights
+📊 Executive KPIs (Page 1)
+
+Total Booking Value: $6.37M
+
+Success Rate: 61.9%
+
+Lost Revenue: $3.9M (38% cancellations)
+
+Revenue Efficiency: Prime Sedan = highest $/km, SUV = lowest
+
+📌 Operational Insights
+
+Prime Sedan dominates total revenue; eBike adoption is strong.
+
+Balanced payment mix: Credit Card, UPI, Cash (~$3.4M each).
+
+Both customer & driver cancellations contribute equally to losses.
+
+Ratings stable at ~4.0, but SUVs underperform slightly.
+
+Ride demand & distance peak towards month-end.
+
+💡 Recommendations
+
+Dynamic Pricing during peak demand.
+
+Driver Incentives for reducing cancellations.
+
+Fleet Expansion for Prime Sedan and eBike.
+
+Digital Payment Incentives to reduce cash dependency.
+
+Predictive Models for demand & cancellations.
+
+🛠️ Tech Stack
+
+Power BI – Data modeling, DAX KPIs, interactive visuals.
+
+SQL – Data extraction, joins, and aggregation.
+
+Python (Pandas, NumPy, Matplotlib) – Data cleaning, transformation, and exploratory analysis.
+
+📂 Dashboard Pages
+
+Executive Summary – KPIs + efficiency insights.
+
+Booking Performance – Trends & ride outcomes.
+
+Vehicle Analysis – Revenue by type, efficiency per km.
+
+Cancellations – Driver vs Customer breakdown, lost revenue impact.
+
+Payments & Ratings – Distribution of methods, customer & driver satisfaction.
+
+📌 Outcome
+
+The dashboard uncovers $3.9M lost revenue opportunities and provides a roadmap to:
+
+Optimize fleet performance
+
+Reduce cancellations
+
+Enhance customer experience
+
+Boost overall revenue
